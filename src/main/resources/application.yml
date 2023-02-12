@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: groovySecurity
+  server:
+    port: 8081
+    http-to-https-redirect: true
+  security:
+    enabled: true
+    redirect:
+      enabled: false
+netty:
+  default:
+    allocator:
+      max-order: 3
